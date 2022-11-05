@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPF_hw_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_hw_9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="534*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="267*"/>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Orientation="Horizontal">
+            <Button Foreground="Navy" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Navy</Button>
+            <Button Foreground="Blue" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Blue</Button>
+            <Button Foreground="Aqua" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Aqua</Button>
+            <Button Foreground="Teal" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Teal</Button>
+            <Button Foreground="Olive" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Olive</Button>
+            <Button Foreground="Green" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Green</Button>
+            <Button Foreground="Lime" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Lime</Button>
+            <Button Foreground="Yellow" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Yellow</Button>
+            <Button Foreground="Orange" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Orange</Button>
+            <Button Foreground="Red" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Red</Button>
+            <Button Foreground="Maroon" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Maroon</Button>
+            <Button Foreground="Fuchsia" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Fuchsia</Button>
+            <Button Foreground="Purple" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Purple</Button>
+            <Button Foreground="Black" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Black</Button>
+            <Button Foreground="Silver" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Silver</Button>
+            <Button Foreground="Gray" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">Gray</Button>
+            <Button Foreground="White" Margin="2,2,0,0" MouseEnter="Button_MouseEnter">White</Button>
+
+        </WrapPanel>
+    </Grid>
+</Window>
